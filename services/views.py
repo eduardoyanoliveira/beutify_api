@@ -14,6 +14,7 @@ class ServiceTypeViewSet(ModelViewSet):
 
 
 class ServiceViewSet(ModelViewSet):
+
     queryset = ServiceModel.objects.all()
 
     def get_serializer_class(self):
@@ -22,6 +23,7 @@ class ServiceViewSet(ModelViewSet):
         return ServiceSerializer
 
 class OrderViewSet(ModelViewSet):
+    
     queryset = OrderModel.objects.all()
 
     def get_serializer_class(self):

@@ -16,7 +16,6 @@ class ServiceDetailSerializer(ModelSerializer):
 
 class ServiceSerializer(ModelSerializer):
     class Meta:
-        depth = 1
         model = ServiceModel
         fields = '__all__'
 
