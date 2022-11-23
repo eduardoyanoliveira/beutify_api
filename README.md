@@ -46,7 +46,9 @@
   py manage.py runserver
 ```
 
-7º In order to run the web application keep following the tutorial on the nebula-web-application repository
+7º In order to run the web application keep following the tutorial on this repository
+
+[frontend] (https://github.com/eduardoyanoliveira/beutify_frontend)
 
 ## Main Technologies
 
